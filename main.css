@@ -1,0 +1,140 @@
+/* INDEX  --------------------
+  - CSS RESET
+  - GENERAL HELPER CLASSES
+  - UNIVERSAL STYLES
+  - HEADER & FOOTER
+  - MODULAR ELEMENTS
+    - Element Name
+  - FORMS
+  - SPECIFIC PAGES
+    - Page Name
+---------------------------
+Website Fonts:
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: al-fresco,sans-serif;
+    font-weight: 700/400;
+    font-style: normal;
+Website Colours: List colour hex codes here for reference
+black: #2d2d2d
+white: white
+villarambo yellow: yellow
+villarambo blue: #2F55BC
+*/
+
+
+/* ------------------------- CSS RESET ------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+[class*=col-], [class*=col_], [class~=col] {
+  padding: 0;
+}
+
+
+/* ------------------------- SHOW BOXES ------------------------- */
+section, div, span {
+  /* padding: 1%;
+  border: 1px solid black; */
+}
+
+/* ------------------------- HELPER CLASSES ------------------------- */
+
+.tall         { min-height:100vh; }
+.med-height   { height: 50vh; }
+
+.width-95   {width:95%}
+
+.textcentered     { text-align: center; }
+.textright        { text-align: right; }
+.textbottom       { align-self: flex-end }
+
+.line-height      {line-height: 1.7}
+
+.no-wrap  {white-space: nowrap;}
+
+.margin-bottom-15 {margin-bottom: 15vw;}
+
+.padding-top-2        {padding-top:2%}
+
+.f-small    {font-size: 1.5vw}
+.f-medium   {font-size: 2.2vw}
+.f-large    {font-size: 4vw}
+
+
+.f-light {color:white}
+
+.hide {visibility:hidden}
+
+/* ------------------------- UNIVERSAL STYLES ------------------------- */
+
+body {
+  color:#2d2d2d
+}
+
+h1 {
+  font-family: al-fresco,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12vw;
+  line-height:0.8;
+  padding-top: 12vw;
+}
+
+h2, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  line-height:1.7;
+}
+
+h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 5vw;
+}
+
+a {
+    color: #2d2d2d;
+    text-decoration: none;
+    transition:1s color;
+}
+
+a:hover
+{
+     color:#2F55BC;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+/* ------------------------- MODULAR ELEMENTS ------------------------- */
+
+
+.front-icon {
+  width:21vw;
+}
+
+.canggu {
+  position: relative;
+  margin-bottom: 15vw;
+}
+
+.frangipani {
+  position: absolute;
+  right:23vw;
+  top:2vw;
+}
+
+.feature-color {
+  background-color: #2F55BC;
+  color: white;
+  padding: 2%;
+}

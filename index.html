@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:600|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <link href="lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="animate.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 
@@ -129,7 +130,60 @@
       </div>
     </div>
   </section>
+  <section class="grid-spaceAround">
+    <div class="col-10 grid-bottom">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item margin-bottom margin-top">
+                <h4 class="f-medium">Perfect spot to chill in Bali</h4>
+                <p class="f-small">So happy with the location, far enough away from the hustle and bustle of downtown Canggu but close enough to enjoy all the cafes, restaurants and nightlife.  The house is very comfortable and its so great having both the pool and the rooftop pavillion.  Highly recommend Villa Rambo if you are looking for the perfect spot to chill in Bali.<br/><br/><span class="italic">- Jonathon, Australia</span></p>
+            </div>
+            <div class="item margin-bottom margin-top">
+                <h4 h4 class="f-medium">A home away from home</h4>
+                <p class="f-small">We stayed for 4 months and Villa Rambo was our home away from home.  The property is furnished with everything you might need for your stay.  We were basically able to move in!  My favourite place to hang out was the roof top pavillion, great for reading, study and drinking a Bintang as the sun goes down.<br/><br/> <span class="italic">- Charlotte, New Zealand</span></p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section>
+    <form action="https://formspree.io/youemail@gmail.com" method="POST" class="grid-spaceAround feature-color">
+  <div class="col-10 grid">
+      <div class="col-6_sm-12 padded">
+          <label for="name"> Your Name </label>
+          <input type="text" name="name" id="name" placeholder="Name" />
+
+          <label for="email"> Your Email </label>
+          <input type="email" name="_replyto" id="email" placeholder="Email" />
+
+          <label for="phone"> Your Phone Number </label>
+          <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number" />
+
+
+        </div> <!-- end col 1 -->
+        <!-- Col 2 -->
+        <div class="col-6_sm-12 padded">
+
+
+          <label for="message"> Let us know when you would like to visit </label>
+          <textarea name="message" id="message" placeholder="I am coming to Bali in May..."></textarea>
+
+          <input type="submit" value="Submit" class="button" />
+        </div>
+
+    <!-- These are hidden fields -->
+    <input type="hidden" name="_cc" value="youremail@gmail.com" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="../SUCCESS" />
+  </div></form>
+
+  </section>
 
 
 

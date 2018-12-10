@@ -92,7 +92,7 @@ h1 {
   padding-top: 12vw;
 }
 
-h2, p, ul {
+h2, p, ul, form {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -120,6 +120,10 @@ a:hover
 
 :focus {
   outline:none;
+}
+
+.italic{
+  font-style:italic;
 }
 
 /* ------------------------- MODULAR ELEMENTS ------------------------- */
@@ -163,4 +167,107 @@ a:hover
 
 #map{
     height: 100%;
+}
+
+/* ------------------------- BS CAROUSEL ------------------------- */
+
+
+.carousel {
+    text-align: center;
+}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+.item:nth-child(1) {
+    background: white;
+}
+
+.item:nth-child(2) {
+    background: white;
+}
+
+.carousel-indicators li {
+    border:1px solid black;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-control {
+    color: black;
+}
+
+
+/* ------------------------- FORMS ------------------------- */
+
+.padded {
+  padding: 2%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid rgb(220,220,220);
+}
+
+textarea {
+  min-height: 13rem;
+}
+
+form label {
+  margin: 1rem 0 0;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+form input[type="submit"] {
+  background-color:white;
+  color:black;
+  border: none;
 }

@@ -245,6 +245,10 @@ body,
   padding: 2%;
 }
 
+form{
+  font-size: 1.5vw
+}
+
 form input,
 form textarea {
   width: 100%;
@@ -254,7 +258,7 @@ form textarea {
 }
 
 textarea {
-  min-height: 13rem;
+  min-height: 61%;
 }
 
 form label {

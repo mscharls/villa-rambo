@@ -63,6 +63,7 @@ section, div, span {
 
 .margin-bottom-15 {margin-bottom: 15vw;}
 .margin-top    {margin-top: 7vw;}
+.margin-top-3    {margin-top: 3vw;}
 .margin-bottom    {margin-bottom: 7vw;}
 
 .padding-top-2        {padding-top:2%}
@@ -154,7 +155,7 @@ a:hover
 .feature-color {
   background-color: #2F55BC;
   color: white;
-  padding: 2%;
+  padding: 3% 0% 3% 0%;
 }
 
 .rambo-image {

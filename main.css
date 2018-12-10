@@ -137,6 +137,7 @@ a:hover
 
 .front-icon {
   width:21vw;
+  z-index: 10;
 }
 
 .canggu {

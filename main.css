@@ -67,6 +67,7 @@ section, div, span {
 
 .padding-top-2        {padding-top:2%}
 .padding-top-5        {padding-top:5%}
+.padding-bottom-4     {padding-bottom: 4vw}
 
 .f-small    {font-size: 1.5vw}
 .f-medium   {font-size: 2.2vw}
@@ -90,6 +91,11 @@ h1 {
   font-size: 12vw;
   line-height:0.8;
   padding-top: 12vw;
+  margin: 0;
+}
+
+h3 {
+    margin: 0;
 }
 
 h2, p, ul, form {
@@ -258,7 +264,7 @@ form textarea {
 }
 
 textarea {
-  min-height: 61%;
+  min-height: 45%;
 }
 
 form label {
@@ -274,4 +280,12 @@ form input[type="submit"] {
   background-color:white;
   color:black;
   border: none;
+}
+
+.button {
+  transition:1s color;
+}
+
+.button:hover {
+  background-color: #EAD331;
 }

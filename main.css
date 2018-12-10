@@ -283,7 +283,7 @@ form input[type="submit"] {
 }
 
 .button {
-  transition:1s color;
+  transition: 1s;
 }
 
 .button:hover {
